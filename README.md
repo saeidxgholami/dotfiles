@@ -8,3 +8,7 @@ HDD: 256 GB
 [Install Arch](https://github.com/saeidxgholami/dotfiles/blob/main/arch-install.md)
 
 [Install Xorg](https://github.com/saeidxgholami/dotfiles/blob/main/xorg-install.md)
+
+[Install Programs](https://github.com/saeidxgholami/dotfiles/blob/main/programs.md)
+
+

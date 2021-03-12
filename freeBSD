@@ -1,0 +1,32 @@
+Installation is easy
+download memstick.img then write it to usb using win32 Disk Imager
+
+USB Tethering
+# kldload if_urndis
+# kldload if_cdce
+# kldload if_ipheth
+activate internet using usb tethering
+# dhclient ue0
+# ping google.com
+
+Packages
+first change mirrorlist in
+# vi /etc/pkg/FreeBSD.conf
+change
+"pkg+http://pkg.[B]eu[/B].FreeBSD.org/${ABI}/latest"
+Mirrors you may use instead of the global pkg.FreeBSD.org:
+
+  pkg.eu.FreeBSD.org
+  pkg.us-east.FreeBSD.org
+  pkg.us-west.FreeBSD.org
+  
+ `eu` is fine
+ or go to http://pkg.freebsd.org/; currently I use pkg0.bme.freebsd.org which is fine.
+
+# pkg install xorg
+# pkg install sudo neovim feh neofetch htop git firefox dmenu
+
+install dwm and st
+# git clone https://suckless.org/dwm
+# git clone https://suckless.org/st
+
